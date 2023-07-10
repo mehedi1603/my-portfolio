@@ -2,6 +2,9 @@
     margin: 2px;
     padding: 0px;
 }
+nav{
+    margin: 0px 200px;
+}
 nav, ul{
     display: flex;
     list-style: none;
@@ -15,11 +18,12 @@ nav, ul{
     cursor: pointer;
 }
 .p-title:hover{
-    border: 2px solid black;
+    border: none;
     border-radius: 10px;
     box-shadow: black 5px 5px 20px;
     background-color:rgb(11, 212, 72) ;
     color: rgb(29, 10, 241);
+    /* color: white; */
     display: block;
 }
 span{
@@ -29,21 +33,22 @@ ul li{
     padding: 10px;
     margin-right: 30px;
 }
-a{
+nav ul a{
     text-decoration: none;
     color: black;
-    padding: 8px;
+    padding: 5px;
     font-size: 22px;
     border-radius: 10px;
-    justify-content: space-around;
+    padding: 5px 10px;
 }
-a:hover{
+nav ul a:hover{
     /* background-color: rgb(197, 190, 190); */
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border: none;
     border-radius: 10px;
     box-shadow: black 5px 5px 20px;
     background-color: rgb(47, 134, 233);
-    color: white;
+    /* color: white; */
 }
 .btn{
     background-color: orange;
@@ -56,5 +61,18 @@ a:hover{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: rgb(11, 212, 72);
+    background-color: rgb(47, 134, 233);
+    color: white;
+}
+.header{
+    background-color: bisque;
+}
+.banner{
+    padding: 30px 30px 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.banner .pic{
+    width: 300px;
 }
