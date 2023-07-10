@@ -26,7 +26,7 @@ nav, ul{
     /* color: white; */
     display: block;
 }
-span{
+nav span{
     color: red;
 }
 ul li{
@@ -66,13 +66,41 @@ nav ul a:hover{
 }
 .header{
     background-color: bisque;
+    background-image: url('./header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding: 30px 30px 50px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .banner .pic{
-    width: 300px;
+    width: 500px;
+}
+.banner> div .btn{
+    margin: 10px 30px;
+}
+.section{
+    position:relative;
+  width:50%;
+  background-color:#f3efc6;
+  /* margin:0px auto; */
+  margin: 130px 0px 100px 250px;
+  padding: 100px;
+
+}
+.sec{
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+.t{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+span{
+    font-weight: bold;
 }
